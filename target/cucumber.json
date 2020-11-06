@@ -1,0 +1,514 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "The login page is opening",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.the_login_page_is_opening()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "clicks on submit button",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user navigated to the orchestra Monitor",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_navigated_to_the_orchestra_monitor()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T13:23:03.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13576000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.browserSetup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Use 1.0.0.8 Version of licensing system_CucumberTest_ORC-4260",
+        "description": "",
+        "id": ";use-1.0.0.8-version-of-licensing-system-cucumbertest-orc-4260;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6197000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.browserDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "orchestra already using ip-licenses",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.orchestra_already_using_ip_licenses()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user click on License Management button",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_click_on_license_management_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user navigated to License Management page",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_navigated_to_license_management_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "all License verification are Network based verification available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "License verification",
+                  "offset": 4
+                },
+                {
+                  "val": "Network based verification",
+                  "offset": 29
+                }
+              ],
+              "location": "featuresTests.ORC4260OTP517.all_license_verification_are_network_based_verification_available(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OTE-21"
+          },
+          {
+            "name": "@OTP-530"
+          },
+          {
+            "name": "@OTP-460"
+          },
+          {
+            "name": "@OTE-22"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "The login page is opening",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.the_login_page_is_opening()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1255000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "clicks on submit button",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user navigated to the orchestra Monitor",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_navigated_to_the_orchestra_monitor()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-06T13:23:24.823Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6979000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.browserSetup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Use 1.0.0.8 Version of licensing system_CucumberTest_ORC-4260",
+        "description": "",
+        "id": ";use-1.0.0.8-version-of-licensing-system-cucumbertest-orc-4260;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6024000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.browserDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "orchestra already using ip-licenses",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.orchestra_already_using_ip_licenses()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user click on License Management button",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_click_on_license_management_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user navigated to License Management page",
+            "match": {
+              "location": "featuresTests.ORC4260OTP517.user_navigated_to_license_management_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "featuresTests.ORC4260OTP517.stepsHook()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "all State are Orchestra license and node activation is valid available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "State",
+                  "offset": 4
+                },
+                {
+                  "val": "Orchestra license and node activation is valid",
+                  "offset": 14
+                }
+              ],
+              "location": "featuresTests.ORC4260OTP517.all_license_verification_are_network_based_verification_available(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OTE-21"
+          },
+          {
+            "name": "@OTP-530"
+          },
+          {
+            "name": "@OTP-460"
+          },
+          {
+            "name": "@OTE-22"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ORC4260OTP517.feature",
+    "tags": [
+      {
+        "name": "@OTE-21",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

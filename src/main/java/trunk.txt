@@ -1,0 +1,48 @@
+//		getDriver().getPageSource().concat("Dashboard node");
+
+//		getDriver().findElement(By.xpath(landscapePath)).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Scenario')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'User management')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Timer')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Process monitoring')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'System events')]")).click();
+//		Thread.sleep(4000);
+//
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Logfiles')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Alert system')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Health Check')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Remote Monitoring')]")).click();
+//		Thread.sleep(4000);
+//
+//		getDriver().findElement(By.xpath("//td[contains(text(),'ESB')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Cloud environment')]")).click();
+//		Thread.sleep(4000);
+//		getDriver().findElement(By.xpath("//td[contains(text(),'Runtime')]")).click();
+//		Thread.sleep(4000);
+		// getDriver().findElement(By.xpath(logoutXpath)).click();
+		
+//		getDriver().findElement(By.xpath(DASHBOARD.BASE.getXpath())).click();
+
+//		Thread.sleep(2000);
+//		getDriver().findElement(By.xpath(MONITORING.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(ESB.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(CLOUDENVIRONMENT.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(SETTINGS.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(RUNTIME.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(SERVERINFO.BASE.getXpath())).click();
+//		Thread.sleep(8000);
+//		getDriver().findElement(By.xpath(CHANGEPASSWORD.BASE.getXpath())).click();
