@@ -1,10 +1,6 @@
 node() {
 
     def repoURL = 'https://github.com/gabrielstar/cucumber.git'
-    stage('Expose report') {
-        archive "**/cucumber.json"
-        cucumber '**/cucumber.json'
-    }
 	stage('Import results to Xray') {
 
 		def description = "[BUILD_URL|${env.BUILD_URL}]"
