@@ -67,7 +67,7 @@ public class Config {
 		if (browser.equals(BROWSER.CHROME)) {
 			System.setProperty("webdriver.chrome.driver",
 					getProjectPath() + "/src/test/resources/drivers/chromedriver.exe");
-			ChromeOptions options = InitChromeOptions();
+			//ChromeOptions options = InitChromeOptions();
 			// without start Chrome GUI
 			//this.setDriver(new ChromeDriver(options));
 			this.setDriver(new ChromeDriver());
