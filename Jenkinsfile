@@ -19,7 +19,7 @@ pipeline {
                 endpointName: '/cucumber/multipart',
                 importFilePath: 'target/cucumber.json',
                 importInParallel: 'false',
-                importInfo: '''project = OTE fixVersion = "ORC 4.8.2.4" issuekey = OTE-21 ''', 
+                
                 inputInfoSwitcher: 'fileContent',
                 serverInstance: 'SERVER-6c495579-0bb5-49e1-9831-2c9c86e61301'])
                 echo 'Importing  results to Xray finished'
