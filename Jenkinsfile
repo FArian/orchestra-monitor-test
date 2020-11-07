@@ -13,7 +13,8 @@ pipeline {
             }
         }
         stage('Import results to Xray') {
-            def info = '''{ {
+            def info = 
+                '''{ 
                 "fields": {
                     "project": {
                         "key": "OTE"
@@ -22,9 +23,7 @@ pipeline {
                     "issuetype": {
                         "id": "10302"
                     }
-                }
-            }
-        }'''
+                }'''
         steps {
             echo 'Importing  results to Xray....'
             step([$class: 'XrayImportBuilder',
