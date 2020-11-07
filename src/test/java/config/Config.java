@@ -65,7 +65,7 @@ public class Config {
 	private void browserSetup() {
 		if (browser.equals(BROWSER.CHROME)) {
 			System.setProperty("webdriver.chrome.driver",
-					getProjectPath() + "/src/test/resources/drivers/chromedriver");
+					getProjectPath() + "/src/test/resources/drivers/chromedriver.exe");
 			this.setDriver(new ChromeDriver());
 		} else {
 			System.setProperty("webdriver.gecko.driver",
