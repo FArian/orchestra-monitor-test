@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import enums.BROWSER;
@@ -66,6 +67,9 @@ public class Config {
 		if (browser.equals(BROWSER.CHROME)) {
 			System.setProperty("webdriver.chrome.driver",
 					getProjectPath() + "/src/test/resources/drivers/chromedriver.exe");
+			ChromeOptions options = InitChromeOptions();
+			// without start Chrome GUI
+			//this.setDriver(new ChromeDriver(options));
 			this.setDriver(new ChromeDriver());
 		} else {
 			System.setProperty("webdriver.gecko.driver",
@@ -77,6 +81,16 @@ public class Config {
 		getDriver().manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		getDriver().manage().window().maximize();
 
+	}
+	public ChromeOptions InitChromeOptions() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		options.addArguments("--disable-gpu");
+		options.addArguments("disable-infobars");
+		options.addArguments("--disable-extensions");
+		options.addArguments("window-size=1200x600");
+		options.addArguments("--no-sandbox");
+		return options;
 	}
 	
 	public void browserDown() {
