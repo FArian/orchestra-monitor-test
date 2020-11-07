@@ -55,9 +55,9 @@ public class Config {
 	// init runtime type
 	private void initRuntimeType() {
 		if (getRuntimetype().equals(RUNTIMETYPE.ORCHESTRA)) {
-			getDriver().navigate().to("http://localhost:8080/orchestra");
+			getDriver().navigate().to("http://farian:8080/orchestra");
 		} else {
-			getDriver().navigate().to("http://localhost:9090/monitor");
+			getDriver().navigate().to("http://farian:9090/monitor");
 		}
 	}
 	
