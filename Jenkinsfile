@@ -19,7 +19,7 @@ pipeline {
                 endpointName: '/cucumber/multipart',
                 importFilePath: 'target/cucumber.json',
                 importInParallel: 'false',
-                
+                importInfo: 'project = OTE',
                 inputInfoSwitcher: 'fileContent',
                 serverInstance: 'SERVER-6c495579-0bb5-49e1-9831-2c9c86e61301'])
                 echo 'Importing  results to Xray finished'
