@@ -9,8 +9,7 @@ pipeline {
         stage('Expose report') {
             steps {
                 echo 'Testing..'
-                archive "**/cucumber.json"
-                cucumber '**/cucumber.json'
+              
             }
         }
         stage('Import results to Xray') {
