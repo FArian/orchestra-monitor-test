@@ -6,13 +6,13 @@ pipeline {
                 echo 'Checkouting Self...'
             }
         }
-         stage('Build') {
+         stage('Build Clean') {
             steps {
                 echo 'Cleaning...'
 
             }
         }
-        stage('Build') {
+        stage('Build Install') {
             steps {
                 echo 'Installing...'
 
